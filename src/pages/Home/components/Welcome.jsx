@@ -16,7 +16,7 @@ const Welcome = () => {
 
 			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-10'>
 				{aboutsData.map(data => (
-					<div className='card bg-base-100 shadow-lg p-5'>
+					<div key={data.id} className='card bg-base-100 shadow-lg p-5'>
 						<picture className='pb-2'>
 							<img src={data.icon} alt={data.title} className='w-3/12' />
 						</picture>
