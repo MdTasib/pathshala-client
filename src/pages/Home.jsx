@@ -1,7 +1,12 @@
 import React from "react";
+import Teachers from "../components/Teachers/Teachers";
 
 const Home = () => {
-	return <div></div>;
+  return (
+    <>
+      <Teachers />
+    </>
+  );
 };
 
 export default Home;

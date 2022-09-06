@@ -1,5 +1,11 @@
+import Home from "./pages/Home";
+
 function App() {
-	return <button class='btn btn-primary'>Button</button>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
