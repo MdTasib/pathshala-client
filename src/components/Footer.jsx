@@ -15,13 +15,13 @@ const Footer = () => {
 					</div>
 					<div>
 						<span className='footer-title'>Contact US</span>
-						<p class='flex items-center justify-center md:justify-start mb-1'>
+						<p className='flex items-center justify-center md:justify-start mb-1'>
 							<svg
 								aria-hidden='true'
 								focusable='false'
 								data-prefix='fas'
 								data-icon='home'
-								class='w-4 mr-4 text-primary'
+								className='w-4 mr-4 text-primary'
 								role='img'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 576 512'>
@@ -31,13 +31,13 @@ const Footer = () => {
 							</svg>
 							New York, NY 10012, US
 						</p>
-						<p class='flex items-center justify-center md:justify-start mb-1'>
+						<p className='flex items-center justify-center md:justify-start mb-1'>
 							<svg
 								aria-hidden='true'
 								focusable='false'
 								data-prefix='fas'
 								data-icon='envelope'
-								class='w-4 mr-4 text-primary'
+								className='w-4 mr-4 text-primary'
 								role='img'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 512 512'>
@@ -47,13 +47,13 @@ const Footer = () => {
 							</svg>
 							info@example.com
 						</p>
-						<p class='flex items-center justify-center md:justify-start mb-1'>
+						<p className='flex items-center justify-center md:justify-start mb-1'>
 							<svg
 								aria-hidden='true'
 								focusable='false'
 								data-prefix='fas'
 								data-icon='phone'
-								class='w-4 mr-4 text-primary'
+								className='w-4 mr-4 text-primary'
 								role='img'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 512 512'>
@@ -63,13 +63,13 @@ const Footer = () => {
 							</svg>
 							+ 01 234 567 88
 						</p>
-						<p class='flex items-center justify-center md:justify-start'>
+						<p className='flex items-center justify-center md:justify-start'>
 							<svg
 								aria-hidden='true'
 								focusable='false'
 								data-prefix='fas'
 								data-icon='print'
-								class='w-4 mr-4 text-primary'
+								className='w-4 mr-4 text-primary'
 								role='img'
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 512 512'>

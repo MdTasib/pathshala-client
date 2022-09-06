@@ -1,11 +1,14 @@
 import React from "react";
 import courseImg from "../../../assets/images/course-img.png";
 import courseBg from "../../../assets/images/abt-element.png";
+import coursesData from "../../../Data/courseData";
+import Course from "./Course";
 
 const FindCourse = () => {
 	return (
-		<div className={`grid grid-cols-1 md:grid-cols-2 gap-8 py-20`}>
+		<div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 py-20`}>
 			<div
+				className='text-center md:text-left'
 				style={{
 					backgroundImage: `url(${courseBg})`,
 					backgroundRepeat: "no-repeat",
@@ -17,13 +20,13 @@ const FindCourse = () => {
 					egestas. Donec iaculis nisi eget bibendum efficitur. Lorem ipsum dolor
 					sit
 				</p>
-				<p class='flex items-center justify-center md:justify-start pb-10 text-secondary font-bold'>
+				<p className='flex items-center justify-center md:justify-start pb-10 text-secondary font-bold'>
 					<svg
 						aria-hidden='true'
 						focusable='false'
 						data-prefix='fas'
 						data-icon='phone'
-						class='w-4 mr-4 text-primary'
+						className='w-4 mr-4 text-primary'
 						role='img'
 						xmlns='http://www.w3.org/2000/svg'
 						viewBox='0 0 512 512'>
@@ -36,7 +39,11 @@ const FindCourse = () => {
 				<img src={courseImg} className='' alt='' />
 			</div>
 			{/* courses content */}
-			<div>hello</div>
+			<div className='flex flex-col pt-10'>
+				{coursesData.map(data => (
+					<Course data={data} key={data.id} />
+				))}
+			</div>
 		</div>
 	);
 };
