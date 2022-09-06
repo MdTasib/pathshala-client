@@ -3,6 +3,8 @@ import courseImg from "../../../assets/images/course-img.png";
 import courseBg from "../../../assets/images/abt-element.png";
 import coursesData from "../../../Data/courseData";
 import Course from "./Course";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
 const FindCourse = () => {
 	return (
@@ -43,6 +45,11 @@ const FindCourse = () => {
 				{coursesData.map(data => (
 					<Course data={data} key={data.id} />
 				))}
+				<Link
+					to='/courses'
+					className='pt-5 text-secondary font-bold flex justify-end items-center'>
+					<span className='pr-2'>All Events</span> <FaArrowRight />
+				</Link>
 			</div>
 		</div>
 	);
