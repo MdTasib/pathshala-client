@@ -3,6 +3,7 @@ import Container from "../../components/Container";
 import Teachers from "../Home/components/Teachers";
 import FindCourse from "./components/FindCourse";
 import Masonary from "./components/Masonary";
+import RecentNews from "./components/RecentNews";
 import Welcome from "./components/Welcome";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Masonary />
       <Teachers />
       <FindCourse />
+      <RecentNews />
     </Container>
   );
 };

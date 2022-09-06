@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { teachersData } from "../../../Data/teachersData";
 import Teacher from "./Teacher";
 
 const Teachers = () => {
-  const [teachers, setTeachers] = useState([]);
-  useEffect(() => {
-    fetch("teachers.json")
-      .then((res) => res.json())
-      .then((data) => setTeachers(data));
-  }, []);
+  const [teachers, setTeachers] = useState(teachersData);
 
   return (
     <section className="py-10">
       <div className="text-center">
         <p className="font-sans text-5xl font-bold ">
-          Our Awesome <br /> Teachers
+          Our Awesome <br />
+          <span className="text-orange-600"> Teachers</span>
         </p>
-        <p className="mt-5 text-sm text-slate-400">
+        <p className="mt-5 text-xs md:text-sm text-slate-700">
           Quisque id ultrices tellus, ac sodales ex. Cras nec ante viverra,
           bibendum justo eget, <br /> lacinia dui. Donec ligula ligula,
           elementum sit amet
