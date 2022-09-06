@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../components/Container";
 import Masonary from "./components/Masonary";
+import OurClass from "./components/OurClass/OurClass";
 import Welcome from "./components/Welcome";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 		<Container>
 			<Welcome />
 			<Masonary />
+			<OurClass></OurClass>
 		</Container>
 	);
 };
