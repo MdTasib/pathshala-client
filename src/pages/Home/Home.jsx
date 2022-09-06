@@ -8,8 +8,8 @@ const Home = () => {
 	return (
 		<Container>
 			<Welcome />
-			<Teachers/>
 			<Masonary />
+			<Teachers/>
 		</Container>
 	);
 };
