@@ -20,6 +20,7 @@ const Footer = () => {
 						<a className='link link-hover'>Jobs</a>
 						<a className='link link-hover'>Press kit</a> */}
 
+						<span className='footer-title'>Contact US</span>
 						<p class='flex items-center justify-center md:justify-start mb-1'>
 							<svg
 								aria-hidden='true'
