@@ -14,12 +14,6 @@ const Footer = () => {
 						<a className='link link-hover'>Advertisement</a>
 					</div>
 					<div>
-						{/* <span className='footer-title'>Company</span>
-						<a className='link link-hover'>About us</a>
-						<a className='link link-hover'>Contact</a>
-						<a className='link link-hover'>Jobs</a>
-						<a className='link link-hover'>Press kit</a> */}
-
 						<span className='footer-title'>Contact US</span>
 						<p class='flex items-center justify-center md:justify-start mb-1'>
 							<svg
