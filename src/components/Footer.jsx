@@ -1,10 +1,12 @@
 import React from "react";
 import Container from "../components/Container.jsx";
+import JoinUs from "./JoinUs.jsx";
 
 const Footer = () => {
 	return (
 		<footer className='bg-[#f2f7fd] text-base-content'>
 			<Container>
+				<JoinUs />
 				<div className='footer py-10'>
 					<div>
 						<span className='footer-title'>Services</span>
