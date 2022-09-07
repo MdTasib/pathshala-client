@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import img1 from "../../../../assets/images/classimg1.jpg";
 import SingleCardClass from "./SingleCardClass";
+import circle from "../../../../assets/images/sec-bg.png"
 const OurClass = () => {
     const items = [1,2,3,4,5,1,2,3,4,5]
   const responsive = {
@@ -28,15 +29,14 @@ const OurClass = () => {
   return (
     <section className=" relative pt-10">
       <div className="container">
-        <div className="section-title">
-          <h2 className="section-heading ">Our Classes</h2>
-          <p>
+        <div className={`section-title mb-10 `} >
+          <h2 className="section-heading text-5xl relative font-bold -z-1 mb-2  ">Our Classes</h2>
+          <p className="text-md max-w-[530px] mb-2 text-[#575757] ">
             Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a
             laoreet erat ornare sit amet. Nulla sagittis faucibus lacus
           </p>
         </div>
         {/* section title end */}
-
         <div className="class-section ">
           <Carousel responsive={responsive}>
             {items.map(item =><SingleCardClass img1={img1}></SingleCardClass>)}

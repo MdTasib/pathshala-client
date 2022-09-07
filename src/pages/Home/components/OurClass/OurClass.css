@@ -1,4 +1,4 @@
-.section-heading{
+/* .section-heading{
     color: #2b2b2b;
     font-size: 48.77px;
     font-weight: 700;
@@ -7,7 +7,7 @@
     position: relative;
     z-index: 1;
     font-family:sans-serif;
-}
+} */
 .section-heading::before{
     content: "";
     position: absolute;
@@ -19,17 +19,17 @@
     background-repeat: no-repeat;
     z-index: -1;
 }
-.section-title{
+/* .section-title{
     margin-bottom: 42px;
-}
-.section-title > p{
+} */
+/* .section-title > p{
     color: #575757;
     font-size: 14.23px;
     line-height: 22.35px;
     max-width: 530px;
     margin-bottom: 7px;
 
-}
+} */
 .crt-btn{
     position: absolute;
     bottom: -19px;
