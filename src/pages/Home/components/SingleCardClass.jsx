@@ -1,6 +1,6 @@
 import React from "react";
-import ico from "../../../../assets/images/ico.png";
-import cart from "../../../../assets/images/icon10.png";
+import ico from "../../../assets/images/ico.png";
+import cart from "../../../assets/images/icon10.png";
 
 const SingleCardClass = ({ img1 }) => {
 	return (

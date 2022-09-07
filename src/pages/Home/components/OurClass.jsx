@@ -1,8 +1,8 @@
 import React from "react";
-import "../../../../assets/styles/OurClass.css";
+import "../../../assets/styles/OurClass.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import img1 from "../../../../assets/images/classimg1.jpg";
+import img1 from "../../../assets/images/classimg1.jpg";
 import SingleCardClass from "./SingleCardClass";
 
 const OurClass = () => {
