@@ -6,10 +6,15 @@ import Masonary from "./components/Masonary";
 import OurClass from "../Home/components/OurClass";
 import Welcome from "./components/Welcome";
 import RecentNews from "./components/RecentNews";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
+// import Banner from "../../assets/styles/Banner";
 
 const Home = () => {
   return (
     <Container>
+      <Header />
+      <Banner />
       <Welcome />
       <Masonary />
       <OurClass />
