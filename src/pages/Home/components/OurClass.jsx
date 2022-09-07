@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import img1 from "../../../assets/images/classimg1.jpg";
 import SingleCardClass from "./SingleCardClass";
+import Button from "../../../shared/Button";
 
 const OurClass = () => {
 	const items = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
@@ -43,6 +44,7 @@ const OurClass = () => {
 					<SingleCardClass img1={img1}></SingleCardClass>
 				))}
 			</Carousel>
+			<div className="flex justify-center"><Button>classes</Button></div>
 		</section>
 	);
 };
