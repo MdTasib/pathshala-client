@@ -1,5 +1,13 @@
-function App() {
-	return <button class='btn btn-primary'>Button</button>;
-}
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+
+
+const App = () => {
+	return (
+		<div>
+			<Navbar></Navbar>
+		</div>
+	);
+};
 
 export default App;
