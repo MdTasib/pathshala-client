@@ -6,14 +6,14 @@ import Masonary from "./components/Masonary";
 import Welcome from "./components/Welcome";
 
 const Home = () => {
-  return (
-    <Container>
-      <Welcome />
-      <Masonary />
-      <Teachers />
-      <FindCourse />
-    </Container>
-  );
+	return (
+		<Container>
+			<Welcome />
+			<Masonary />
+			<Teachers />
+			<FindCourse />
+		</Container>
+	);
 };
 
 export default Home;
