@@ -1,8 +1,6 @@
 import React from 'react';
-import logo1 from '../../assets/logo.png'
-import Banner from '../Banner/Banner';
-import Header from '../Header/Header';
-import './Navbar.css'
+import logo1 from '../assets/images/logo.png'
+import '../assets/styles/Navbar.css'
 
 const Navbar = () => {
     return (
@@ -31,8 +29,8 @@ const Navbar = () => {
                     </div>
                 </section>
             </nav>
-            <Header></Header>
-            <Banner></Banner>
+            {/* <Header></Header>
+            <Banner></Banner> */}
         </div>
 
     );

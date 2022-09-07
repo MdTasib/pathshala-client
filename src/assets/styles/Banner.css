@@ -42,13 +42,9 @@
 }
 
 .banner-image {
-    background-image: url(../../assets/elements-for-groupProject.png);
+    background-image: url(../images/elements-for-groupProject.png);
     background-repeat: no-repeat;
     background-size: calc();
-    /* position: relative; */
-    /* box-sizing: border-box; */
-    /* background-position: -10px;
-    overflow-x: visible;
-    padding: 50px; */
+
 
 }

@@ -1,7 +1,7 @@
 import React from 'react';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
-import '../Navbar/Navbar.css'
-
+import '../../../assets/styles/Navbar.css'
 const Header = () => {
     return (
         <section className='grid grid-cols-12 header-container'>
@@ -16,11 +16,19 @@ const Header = () => {
             <ul>
                 <li>
                     <Link to='/'>
-                        <i className='fab fa-facebook'></i>
+                        <FaFacebook></FaFacebook>
                     </Link>
                 </li>
-                <li></li>
-                <li></li>
+                <li>
+                    <Link to='/'>
+                        <FaLinkedin></FaLinkedin>
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/'>
+                        <FaInstagram></FaInstagram>
+                    </Link>
+                </li>
             </ul>
         </section>
     );
