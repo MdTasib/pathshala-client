@@ -25,7 +25,7 @@ const RecentNewsItem = ({ recentNewsItem }) => {
         <p className="font-medium text-xl py-2">{heading}</p>
         <p className="text-sm font-light">{short_Description}</p>
         <p className="text-blue-800 text-sm py-3">
-          <span className="pr-2">Read</span>
+          <span className="pr-2 text-xs">Read</span>
           <FaLongArrowAltRight className="inline "></FaLongArrowAltRight>
         </p>
       </div>
