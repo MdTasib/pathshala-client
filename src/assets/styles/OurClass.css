@@ -1,0 +1,28 @@
+.section-heading::before {
+	content: "";
+	position: absolute;
+	top: -40px;
+	left: -70px;
+	width: 114px;
+	height: 108px;
+	background-image: url(https://html.merku.love/shelly/assets/img/sec-bg.png);
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+.crt-btn {
+	position: absolute;
+	bottom: -19px;
+	right: 40px;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 100px;
+	background: linear-gradient(180deg, #fdc830, #f37335);
+	text-align: center;
+}
+.class-info {
+	padding: 24px 15px 27px;
+	border: 1px solid #d6d6d6;
+	border-top: 0;
+	border-radius: 0 0 10px 10px;
+}
