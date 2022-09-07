@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Course = ({ data }) => {
 	return (
 		<div
-			className={`shadow-lg p-5 my-5 border-l-primary border-l-4 rounded-md ${data.styles}`}>
+			className={`shadow-lg p-5 my-4 border-l-primary border-l-4 rounded-md ${data.styles}`}>
 			<div className='grid grid-cols-2'>
 				<div className='text-sm'>
 					<img src={calIcon} alt='calander' width={18} className='inline' />
