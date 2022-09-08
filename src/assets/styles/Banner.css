@@ -1,50 +1,38 @@
-.banner-container {
-    max-width: 1200px;
-    padding: 26px 0 25px 15px;
-    margin: 0 auto;
-}
-
-.banner-text {
-    font-family: 'Poppins', sans-serif;
-}
-
 .input-banner {
-    width: 50%;
-    border: 1px solid rgba(177, 176, 176, 0.764);
-    height: 40px;
-    border-radius: 20px;
+	width: 50%;
+	border: 1px solid rgba(177, 176, 176, 0.764);
+	height: 40px;
+	border-radius: 20px;
 }
 
 .banner-sm-text {
-    font-size: 180px;
-    margin-top: -220px;
-    margin-left: -120px;
-    font-weight: bold;
-    opacity: 0.1;
-    color: orangered;
+	font-size: 180px;
+	margin-top: -220px;
+	margin-left: -120px;
+	font-weight: bold;
+	opacity: 0.1;
+	color: orangered;
 }
 
 .round-div {
-    width: 90px;
-    height: 90px;
-    border-radius: 45px;
-    margin-top: -60px;
-    margin-left: 290px;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	margin-top: -60px;
+	margin-left: 290px;
 }
 
 .div-green {
-    width: 60px;
-    height: 60px;
-    background-color: rgb(5, 93, 46);
-    border-radius: 30px;
-    margin-top: -95px;
-    margin-left: 20px;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(5, 93, 46);
+	border-radius: 30px;
+	margin-top: -95px;
+	margin-left: 20px;
 }
 
 .banner-image {
-    background-image: url(../images/elements-for-groupProject.png);
-    background-repeat: no-repeat;
-    background-size: calc();
-
-
+	background-image: url(../images/elements-for-groupProject.png);
+	background-repeat: no-repeat;
+	background-size: calc();
 }
