@@ -1,14 +1,17 @@
 import React from "react";
-import ico from "../../../assets/images/ico.png";
-import cart from "../../../assets/images/icon10.png";
 
-const SingleCardClass = ({ img1 }) => {
+import ico from "../../assets/images/ico.png";
+import cart from "../../assets/images/icon10.png";
+
+const Class = ({ classItem }) => {
+  const { id, classTitle, days, duration, imageUrl, authorUrl, author, price } =
+    classItem;
   return (
-    <div className="h-[400px] w-[300px] rounded-lg mx-auto">
+    <div className="h-[400px] w-[300px] lg:w-[300px] xl:w-[260px] rounded-lg mx-auto">
       <img
         style={{ height: "180px", width: "300px", objectFit: "cover" }}
         className="rounded-t-lg"
-        src={img1}
+        src={imageUrl}
         alt=""
       />
       <div className="relative">
@@ -17,11 +20,11 @@ const SingleCardClass = ({ img1 }) => {
         </a>
       </div>
       <div class="class-info">
-        <h3 className="text-lg font-bold">
-          Environmental Studies &amp; Earth Sciences
-        </h3>
+        <h3 className="text-lg font-bold">{classTitle}</h3>
 
-        <span className="text-xs py-3 block">Mon-Fri 10 AM - 12 AM</span>
+        <span className="text-xs py-3 block">
+          {days} {duration}
+        </span>
 
         <div className="grid grid-cols-2">
           <div className="text-sm">
@@ -29,7 +32,7 @@ const SingleCardClass = ({ img1 }) => {
             <span className="text-xs pl-2">Margje</span>
           </div>
           <div className="col-end-4">
-            <span className="text-md font-bold text-secondary">$ 89</span>
+            <span className="text-md font-bold text-secondary">$ {price}</span>
           </div>
         </div>
       </div>
@@ -37,4 +40,4 @@ const SingleCardClass = ({ img1 }) => {
   );
 };
 
-export default SingleCardClass;
+export default Class;
