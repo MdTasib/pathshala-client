@@ -1,22 +1,7 @@
-/* Navbar style */
-.nav-container {
-    max-width: 1200px;
-    padding: 26px 0 25px 15px;
-    margin: 0 auto;
-    border-bottom: 1px solid #eae5e5;
-}
-
-/* header style */
-.header-container {
-    max-width: 1200px;
-    padding: 26px 0 25px 15px;
-    margin: 0 auto;
-}
-
 /* background image */
 .banner {
-    background-image: url(../images/banner-bg-for-groupProject.png);
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: right;
+	background-image: url(../images/banner-bg-for-groupProject.png);
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: right;
 }
