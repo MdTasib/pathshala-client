@@ -7,7 +7,7 @@ import Header from "./Header";
 const Navbar = () => {
 	return (
 		<Container>
-			<section className='grid grid-cols-12 gap-4 border-b-2 py-3'>
+			<section className='grid grid-cols-12 gap-4 border-b-2 py-6'>
 				<div className='col-span-5'>
 					<img src={logo1} alt='' />
 				</div>

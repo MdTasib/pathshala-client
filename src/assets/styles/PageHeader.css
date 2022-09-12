@@ -1,0 +1,16 @@
+.background-text {
+	text-align: center;
+	font-size: 180px;
+	font-weight: bold;
+	opacity: 0.1;
+	color: orangered;
+	z-index: 0;
+}
+
+.pageheader {
+	background-image: url("../images/pager-bg.png");
+	background-color: #f2f7fd;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
