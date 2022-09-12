@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-import "../../../assets/styles/Navbar.css";
+import "../assets/styles/Navbar.css";
 
 const Header = () => {
 	return (
