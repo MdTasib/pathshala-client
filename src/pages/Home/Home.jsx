@@ -7,22 +7,19 @@ import OurClass from "../Home/components/OurClass";
 import Welcome from "./components/Welcome";
 import RecentNews from "./components/RecentNews";
 import Banner from "./components/Banner";
-import Header from "./components/Header";
-// import Banner from "../../assets/styles/Banner";
 
 const Home = () => {
-  return (
-    <Container>
-      <Header />
-      <Banner />
-      <Welcome />
-      <Masonary />
-      <OurClass />
-      <Teachers />
-      <FindCourse />
-      <RecentNews />
-    </Container>
-  );
+	return (
+		<Container>
+			<Banner />
+			<Welcome />
+			<Masonary />
+			<OurClass />
+			<Teachers />
+			<FindCourse />
+			<RecentNews />
+		</Container>
+	);
 };
 
 export default Home;

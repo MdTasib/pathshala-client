@@ -2,6 +2,7 @@ import React from "react";
 import logo1 from "../assets/images/logo.png";
 import "../assets/styles/Navbar.css";
 import Container from "./Container";
+import Header from "./Header";
 
 const Navbar = () => {
 	return (
@@ -27,6 +28,7 @@ const Navbar = () => {
 					</div>
 				</div>
 			</section>
+			<Header />
 		</Container>
 	);
 };
